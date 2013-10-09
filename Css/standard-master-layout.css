@@ -1,0 +1,366 @@
+/* -- Global CSS -- */
+body{
+    width:760px;
+    height:auto;
+    padding:0 20px;
+    margin:0 auto;
+    display:block;
+}
+
+
+/* --/ Global CSS -- */
+
+
+/* -- Profile Bar -- */
+.profile-bar{
+    position: relative;
+    width: 745px;
+    padding-left: 7px;
+    top: 36px;
+    display: block;
+    height: 53px;
+    text-align: center;
+    font-size: 11px;
+}
+
+.profile-bar .username {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    width: 320px;
+}
+
+.profile-bar .location {
+    position: absolute;
+    top: 30px;
+    left: 371px;
+    width: 203px;
+}
+
+.profile-bar .fuel {
+    position: absolute;
+    top: 30px;
+    left: 576px;
+    width: 139px;
+}
+
+
+/* --/ Profile Bar -- */
+
+/* -- Header -- */
+.header-wrapper{
+    position: relative;
+    width: 95%;
+    top: 20px;
+    z-index: 3;
+    margin: 0 2.5%;
+    display: block;
+    height: 220px;
+    font-size: 12px;
+    font-weight: 500;
+}
+    .header-wrapper .header-container{
+        position:absolute;
+        display:block;
+    }
+    .header-wrapper #header-sky{
+        height:180px;
+        width:94%;
+        top:0;
+        margin: 20px 3%;
+        background:url("../images/template/header/background.png");
+    }
+    .header-wrapper #header-background{
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0%;
+    }
+        .header-wrapper #header-background img{
+            height:100%;
+            width:100%;
+        }
+    /* -- /header-background -- */
+
+    /* -- header-middle-layer -- */
+    .header-wrapper #header-middle-layer{
+        height: 180px;
+        width: 94%;
+        top: 0;
+        margin: 20px 3%;
+        overflow:hidden;
+	position:relative;
+    }
+    #header-middle-layer #header-timer{
+        height: 160px;
+        width: 185px;
+        position: absolute;
+        left: 210px;
+        top: 150px;
+        background-color: lightgreen;
+    }
+
+    /* -- /header-middle-layer -- */
+
+    /* -- header-content -- */
+    .header-wrapper #header-content{
+        height: 147px;
+        width: 96%;
+        top: 0;
+        margin: 20px 1.8%;
+        border-radius:10px;
+    }
+    .header-wrapper .header-icon{
+        position:absolute;
+        margin:0;
+        padding:0;
+        border:none;
+        display:inline-block;
+    }
+    .header-wrapper #header-logo{
+        top: 23px;
+        left: 288px;
+        width:125px;
+        height:125px;
+        z-index:8;
+    }
+        .header-wrapper #header-logo a{
+            width:125px;
+            height:125px;
+            display:inline-block;
+            background:url(../images/template/header/logo.png) no-repeat -8px -7px;
+        }
+            .header-wrapper #header-logo a:hover{
+                background:url(../images/template/header/logo.png) no-repeat -8px -147px;
+            }
+
+            .header-wrapper #header-user-info #header-kremeggs{
+                position: absolute;
+                top: 5px;
+                left: 0px;
+            }
+            .header-wrapper #header-user-info #header-bunga{
+                position: absolute;
+                top: 5px;
+                left: 92px;
+            }
+                    .header-wrapper #header-user-info .header-ui-top .header-ui-title .header-ui-text{
+                        top: 22px;
+                        position: absolute;
+                        display: inline;
+                        left: 31px;
+                    }
+                    .header-wrapper #header-user-info #header-kremeggs .header-ui-title .header-ui-text{
+                        left: 31px;
+                     }
+                    .header-wrapper #header-user-info #header-kremeggs .header-ui-title .header-ui-image{
+                        top: 10px;
+                        left: 7px;
+                        position: absolute;
+                        width: 25px;
+
+                    }
+                       .header-wrapper #header-user-info #header-bunga .header-ui-title .header-ui-image{
+                           top: 16px;
+                           left: 5px;
+                           position: absolute;
+                           width: 27px;
+                       }
+
+
+                .header-wrapper #header-user-info .header-ui-top .header-ui-data.bunga{
+                    position: absolute;
+                    top: 53px;
+                    left: 4px;
+                    width: 70px;
+                    text-align: center;
+                    font-weight: 700;
+                }
+
+
+.header-wrapper #header-user-info .header-ui-top .header-ui-data.kremeggs{
+    position: absolute;
+    top: 53px;
+    left: 17px;
+    width: 70px;
+    text-align: center;
+    font-weight: 700;
+
+}
+
+            .header-wrapper #header-user-info #header-orbs{
+                top: 90px;
+                left: 0px;
+                position: absolute;
+            }
+                .header-wrapper #header-user-info .header-ui-bottom .header-ui-data{
+                    position: absolute;
+                    top: 15px;
+                    left: 13px;
+                    width: 75px;
+                    text-align: center;
+                    font-weight: 700;
+
+                }
+                .header-wrapper #header-user-info .header-ui-bottom .header-ui-title{
+                    width: 50%;
+                    height: 100%;
+                    display: block;
+                    float: right;
+                }
+                    .header-wrapper #header-user-info .header-ui-bottom .header-ui-title .header-ui-text{
+                        position: absolute;
+                        top: 14px;
+                        left: 117px;
+                    }
+                    .header-wrapper #header-user-info .header-ui-bottom .header-ui-title .header-ui-image{
+                        width: 46px;
+                        left: 82px;
+                        position: absolute;
+                    }
+            .header-wrapper #header-launch {
+                top: 4px;
+                left: 388px;
+                width: 80px;
+                height: 80px;
+            }
+            .header-wrapper .header-launch-icon{
+                z-index: 10;
+            }
+            .header-wrapper #swf-placeholder {
+                z-index:3;
+            }
+                .header-wrapper #header-launch .header-launch-false {
+                    width: 80px;
+                    height: 80px;
+                    display:block;
+                    background:url("../images/template/header/launch_button.png") no-repeat center;
+                }
+                .header-wrapper #header-launch .header-launch-true {
+                    width: 80px;
+                    height: 80px;
+                    display:block;
+                    background:url("../images/template/header/launch_button.png") no-repeat center;
+                }
+
+            .header-wrapper .header-swf-false{
+                display:none;
+            }
+            .header-wrapper .header-swf-true{
+                display:inline-block;
+            }
+                    .header-wrapper .swf-placeholder object{
+                       bottom: -8px;
+			position: absolute;
+			left: -8px;
+			z-index: 3;
+                    }
+
+            .header-wrapper #header-shield{
+                top: 86px;
+                left: 460px;
+                height: 57px;
+                width: 60px;
+            }
+                .header-wrapper #header-shield img{
+                    width:100%;
+                }
+             .header-wrapper #header-payments{
+                 width: 115px;
+                 height: 80px;
+                 top: 12px;
+                 left: 569px;
+                 line-height: 10px;
+             }
+                .header-wrapper #header-payments .header-payment-section{
+                    width: 100%;
+                    height: 50%;
+                }
+                .header-wrapper #header-payments #header-buy a{
+                    width:100%;
+                    height:100%;
+                    display:block;
+                    background:url('../images/template/header/buyCredits.png') no-repeat -3px -3px;
+                }
+                    .header-wrapper #header-payments #header-buy a:hover{
+                        background:url('../images/template/header/buyCredits.png') no-repeat -3px -48px;
+                    }
+                .header-wrapper #header-payments #header-earn a{
+                    width:100%;
+                    height:100%;
+                    display:block;
+                    background:url('../images/template/header/earnCredits.png') no-repeat -3px -2px;
+                }
+                    .header-wrapper #header-payments #header-earn a:hover{
+                        background:url('../images/template/header/earnCredits.png') no-repeat -3px -44px;
+                    }
+        .header-wrapper .header-container .nav-wrapper{
+            width: 98%;
+            height: 23px;
+            position: relative;
+            top: 152px;
+            margin: 0 auto;
+        }
+            .header-wrapper .header-container .nav-wrapper .header-nav{
+                 list-style: none;
+                 padding:0;
+                 margin:0;
+                 display:inline-block;
+                 text-align: center;
+                 width:100%;
+             }
+                    .header-wrapper .header-container .nav-wrapper .header-nav li{
+                        display: inline-block;
+                        float: left;
+                        line-height: 20px;
+                        border: 3px solid;
+                        background-color: #F3E65A;
+                        position:absolute;
+                        height: 22px;
+                    }
+                        .header-wrapper .header-container .nav-wrapper .header-nav #nav-camp{
+                            width:104px;
+                            top:0;
+                            left:0;
+                        }
+                        .header-wrapper .header-container .nav-wrapper .header-nav #nav-spaceship{
+                            width: 112px;
+                            top: -2px;
+                            left: 231px;
+                        }
+                        .header-wrapper .header-container .nav-wrapper .header-nav li a{
+                           color:black;
+                           font-weight: bold;
+                        }
+
+
+/* --/ Header -- */
+
+/* -- Main Container --*/
+.main-wrapper{
+    position: relative;
+    width: 92%;
+    top: 0;
+    z-index: 1;
+    margin: 0 3.5%;
+    display: inline-block;
+    height: auto;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    background: url("../images/template/backgrounds/background.png") repeat-y;
+}
+/* --/ Main Container --*/
+
+/* -- footer Container --*/
+.footer-wrapper{
+    position: relative;
+    width: 105.265%;
+    bottom: 85px;
+    right: 20px;
+    z-index: 3;
+    display: block;
+}
+    .footer-wrapper object{
+
+    }
+/* --/ footer Container --*/
